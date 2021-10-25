@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import dashboard from './dashboard'
 
 export default function Home() {
   return (
@@ -19,6 +20,10 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
+        </p>
+
+        <p className={styles.description}>
+          Go to <a href="/dashboard">dashboard</a>
         </p>
 
         <div className={styles.grid}>
